@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { AiFillCheckSquare } from "react-icons/ai";
 
 const ContactPage = () => {
   const [success, setSuccess] = useState(false);
