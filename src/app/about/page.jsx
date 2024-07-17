@@ -52,17 +52,17 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">ABOUT ME</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Hi, I'm <span className="font-semibold">Hashir Khan</span>, a passionate <span className="font-semibold">software developer</span> who started experimenting with technology out of a sheer interest in creating cool and innovative stuff. My journey in the tech world began with a curiosity that quickly grew into a full-blown passion for development and exploration of new technologies.
+            Hi, I&apos;m <span className="font-semibold">Hashir Khan</span>, a passionate <span className="font-semibold">software developer</span> who started experimenting with technology out of a sheer interest in creating cool and innovative stuff. My journey in the tech world began with a curiosity that quickly grew into a full-blown passion for development and exploration of new technologies.
 
-As a budding <span className="font-semibold">MERN stack developer</span>, I've honed my skills in building robust applications and have developed a strong proficiency in <span className="font-semibold">Next.js</span>. My enthusiasm for learning keeps me on the cutting edge, always eager to dive into the latest advancements and integrate them into my projects.<br /><br />
+As a budding <span className="font-semibold">MERN stack developer</span>, I&apos;ve honed my skills in building robust applications and have developed a strong proficiency in <span className="font-semibold">Next.js</span>. My enthusiasm for learning keeps me on the cutting edge, always eager to dive into the latest advancements and integrate them into my projects.<br /><br />
 
-I graduated from the <span className="font-semibold">University of Mumbai</span> in 2023 with a <span className="font-semibold">Bachelor of Engineering in Computers</span>. This solid foundation has empowered me to tackle complex problems and continuously expand my technical prowess. Currently, I'm exploring the fascinating realm of <span className="font-semibold">Artificial Intelligence.</span><br /><br />
+I graduated from the <span className="font-semibold">University of Mumbai</span> in 2023 with a <span className="font-semibold">Bachelor of Engineering in Computers</span>. This solid foundation has empowered me to tackle complex problems and continuously expand my technical prowess. Currently, I&apos;m exploring the fascinating realm of <span className="font-semibold">Artificial Intelligence.</span><br /><br />
 
-Beyond coding, I have a deep love for playing <span className="font-semibold">cricket and exploring nature</span>, activities that refresh my mind and fuel my creativity. I'm always open to learning new things and embracing new challenges, driven by an unending curiosity and a desire to make a meaningful impact through technology.
+Beyond coding, I have a deep love for playing <span className="font-semibold">cricket and exploring nature</span>, activities that refresh my mind and fuel my creativity. I&apos;m always open to learning new things and embracing new challenges, driven by an unending curiosity and a desire to make a meaningful impact through technology.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            Let's connect and create something extraordinary together!
+            Let&apos;s connect and create something extraordinary together!
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             {/* <div className="self-end">

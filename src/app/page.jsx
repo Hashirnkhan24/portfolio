@@ -28,7 +28,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl text-center">
-          I'm a <span className="font-medium">software developer</span> passionate about solving problems and continuously learning new technologies. I love exploring new innovations in the tech world and pushing the boundaries of what's possible.
+          I&apos;m a <span className="font-medium">software developer</span> passionate about solving problems and continuously learning new technologies. I love exploring new innovations in the tech world and pushing the boundaries of what&apos;s possible.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4 items-center justify-center">

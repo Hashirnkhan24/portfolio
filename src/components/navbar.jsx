@@ -97,7 +97,7 @@ const Navbar = () => {
           href="/my-cv.jpeg"
           download
         >
-          Hashir's CV{" "}
+          Hashir&apos;s CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
       </div>
