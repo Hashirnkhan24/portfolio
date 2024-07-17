@@ -38,12 +38,12 @@ const ContactPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full py-4 flex items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full w-full py-4 flex items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* FORM CONTAINER */}
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-3/4 lg:h-4/5 lg:w-1/2 bg-[#ea4335] rounded-xl text-xl flex flex-col gap-8 justify-center p-24 text-white"
+          className="h-3/4 w-full lg:w-4/5 lg:h-4/5 m-5 bg-[#ea4335] rounded-xl text-xl flex flex-col gap-8 justify-center p-16 text-white"
         >
           <span>Dear Hashir Khan,</span>
           <input
