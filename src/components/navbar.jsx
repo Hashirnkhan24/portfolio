@@ -81,13 +81,13 @@ const Navbar = () => {
       <div className="flex items-center justify-center md:gap-3">
       
         <div className="hidden md:flex items-center justify-center gap-4 ">
-        <Link href="/">
+        <Link href="github.com/Hashirnkhan24/">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/hashir-khan24/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
         
