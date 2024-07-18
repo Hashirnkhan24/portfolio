@@ -43,22 +43,22 @@ const ContactPage = () => {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-3/4 w-full lg:w-4/5 lg:h-4/5 m-5 bg-[#ea4335] rounded-xl text-xl flex flex-col gap-8 justify-center p-16 text-white"
+          className="h-3/4 w-full lg:w-4/5 lg:h-4/5 m-5 bg-white rounded-md text-xl flex flex-col gap-8 justify-center p-16 text-black shadow-md"
         >
           <span>Dear Hashir Khan,</span>
           <input
             type="text"
-            className="bg-transparent border-b-2 border-b-white outline-none resize-none"
+            className="bg-transparent border-b-2 border-b-red-500 outline-none resize-none"
             name="user_message"
           />
           <span>My mail address is:</span>
           <input
             name="user_email"
             type="text"
-            className="bg-transparent border-b-2 border-b-white outline-none"
+            className="bg-transparent border-b-2 border-b-red-500 outline-none"
           />
           <span>Regards</span>
-          <button className="bg-white rounded font-semibold text-gray-900 p-4 hover:scale-105 shadow-md transition-all">
+          <button className="bg-[#ea4335] rounded font-semibold text-white p-4 hover:scale-105 shadow-md transition-all">
             Send
           </button>
           {success && (

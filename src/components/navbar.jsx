@@ -84,7 +84,7 @@ const Navbar = () => {
         <Link href="github.com/Hashirnkhan24/">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/hashir_n_khan24?igsh=MTh0c3d1YzZkMDRueA==">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
         <Link href="https://www.linkedin.com/in/hashir-khan24/">
@@ -94,7 +94,7 @@ const Navbar = () => {
       </div>
       <a
           className="bg-[#ea4335] text-white px-7 py-3 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-110 transition cursor-pointer"
-          href="/my-cv.jpeg"
+          href="/Hashir-Khan-Resume.pdf"
           download
         >
           Hashir&apos;s CV{" "}
