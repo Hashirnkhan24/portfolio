@@ -40,8 +40,8 @@ const items = [
     id: 5,
     color: "#4285f4",
     title: "Jet Set Fly",
-    desc: "A freelance project for an aviation academy.",
-    link: "https://jet-set-fly.vercel.app/",
+    desc: "Developed the website for Jet Set Fly Aviation.",
+    link: "https://www.jetsetflyaviation.com/",
     tags: ["Nextjs", "Freelancing", "Aviation", "Framer Motion", "Email JS", "Tailwind CSS" ]
   },
 ];
