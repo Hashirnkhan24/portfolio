@@ -94,7 +94,7 @@ const Navbar = () => {
       </div>
       <a
           className="bg-[#ea4335] text-white px-7 py-3 flex items-center gap-2 rounded-md outline-none focus:scale-110 hover:scale-110 transition cursor-pointer"
-          href="/Hashir-Khan-Resume.pdf"
+          href="/Hashir_CV.pdf"
           download
         >
           Hashir&apos;s CV{" "}
