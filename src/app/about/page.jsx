@@ -24,7 +24,29 @@ const AboutPage = () => {
   const experienceRef = useRef();
   const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
 
-  const skills = ["Javascript", "Typescript", "React", "C++", "HTML 5", "CSS 3", "Tailwind", "Nextjs", "Mongodb", "Nodejs", "PostgreSQL", "MySQL", "Express.js", "Firebase", "Redux", "Docker", "AWS", "DBMS", "Linux" ]
+  const skills = [
+    "Javascript",
+    "Typescript",
+    "Python",
+    "LangChain",
+    "React",
+    "C++",
+    "HTML 5",
+    "CSS 3",
+    "Tailwind",
+    "Nextjs",
+    "Mongodb",
+    "Nodejs",
+    "PostgreSQL",
+    "MySQL",
+    "Express.js",
+    "Firebase",
+    "Redux",
+    "Docker",
+    "AWS",
+    "DBMS",
+    "Linux",
+  ];
 
   return (
     <motion.div
@@ -51,17 +73,44 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">ABOUT ME</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            Hi, I&apos;m <span className="font-semibold">Hashir Khan</span>, a passionate <span className="font-semibold">software developer</span> who started experimenting with technology out of a sheer interest in creating cool and innovative stuff. My journey in the tech world began with a curiosity that quickly grew into a full-blown passion for development and exploration of new technologies.
-
-As a budding <span className="font-semibold">MERN stack developer</span>, I&apos;ve honed my skills in building robust applications and have developed a strong proficiency in <span className="font-semibold">Next.js</span>. My enthusiasm for learning keeps me on the cutting edge, always eager to dive into the latest advancements and integrate them into my projects.<br /><br />
-
-I graduated from the <span className="font-semibold">University of Mumbai</span> in 2023 with a <span className="font-semibold">Bachelor of Engineering in Computers</span>. This solid foundation has empowered me to tackle complex problems and continuously expand my technical prowess. Currently, I&apos;m exploring the fascinating realm of <span className="font-semibold">Artificial Intelligence.</span><br /><br />
-
-Beyond coding, I have a deep love for playing <span className="font-semibold">cricket and exploring nature</span>, activities that refresh my mind and fuel my creativity. I&apos;m always open to learning new things and embracing new challenges, driven by an unending curiosity and a desire to make a meaningful impact through technology.
+              Hi, I&apos;m <span className="font-semibold">Hashir Khan</span>, a
+              passionate{" "}
+              <span className="font-semibold">software developer</span> who
+              started experimenting with technology out of a sheer interest in
+              creating cool and innovative stuff. My journey in the tech world
+              began with a curiosity that quickly grew into a full-blown passion
+              for development and exploration of new technologies. As a budding{" "}
+              <span className="font-semibold">MERN stack developer</span>,
+              I&apos;ve honed my skills in building robust applications and have
+              developed a strong proficiency in{" "}
+              <span className="font-semibold">Next.js</span>. My enthusiasm for
+              learning keeps me on the cutting edge, always eager to dive into
+              the latest advancements and integrate them into my projects.
+              <br />
+              <br />I graduated from the{" "}
+              <span className="font-semibold">University of Mumbai</span> in
+              2023 with a{" "}
+              <span className="font-semibold">
+                Bachelor of Engineering in Computers
+              </span>
+              . This solid foundation has empowered me to tackle complex
+              problems and continuously expand my technical prowess. Currently,
+              I&apos;m exploring the fascinating realm of{" "}
+              <span className="font-semibold">Artificial Intelligence.</span>
+              <br />
+              <br />
+              Beyond coding, I have a deep love for playing{" "}
+              <span className="font-semibold">
+                cricket and exploring nature
+              </span>
+              , activities that refresh my mind and fuel my creativity. I&apos;m
+              always open to learning new things and embracing new challenges,
+              driven by an unending curiosity and a desire to make a meaningful
+              impact through technology.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            Let&apos;s connect and create something extraordinary together!
+              Let&apos;s connect and create something extraordinary together!
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             {/* <div className="self-end">
@@ -104,7 +153,10 @@ Beyond coding, I have a deep love for playing <span className="font-semibold">cr
             </motion.svg>
           </div>
           {/* SKILLS CONTAINER */}
-          <div className="flex flex-col gap-12 justify-center items-center lg:w-3/4" ref={skillRef}>
+          <div
+            className="flex flex-col gap-12 justify-center items-center lg:w-3/4"
+            ref={skillRef}
+          >
             {/* SKILL TITLE */}
             <motion.h1
               initial={{ x: "-300px" }}
@@ -119,11 +171,15 @@ Beyond coding, I have a deep love for playing <span className="font-semibold">cr
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
               className="flex gap-4 flex-wrap items-center justify-center"
-            >{skills.map((skill) => (
-              <div className="rounded  p-2 text-sm cursor-pointer bg-[#4285f4] text-white hover:bg-white hover:text-black" key={skill}>
-                {skill}
-              </div>
-            ))}
+            >
+              {skills.map((skill) => (
+                <div
+                  className="rounded  p-2 text-sm cursor-pointer bg-[#4285f4] text-white hover:bg-white hover:text-black"
+                  key={skill}
+                >
+                  {skill}
+                </div>
+              ))}
             </motion.div>
             {/* SKILL SCROLL SVG */}
             <motion.svg
@@ -170,36 +226,38 @@ Beyond coding, I have a deep love for playing <span className="font-semibold">cr
               className=""
             >
               <VerticalTimeline lineColor="black">
-        {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
-            <VerticalTimelineElement
-              visible={true}
-              contentStyle={{
-                background: "#ffffff",
-                boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
-                textAlign: "left",
-                padding: "1.3rem 2rem",
-              }}
-              contentArrowStyle={{
-                borderRight:"0.4rem solid #9ca3af"
-              }}
-              icon={item.icon}
-              iconStyle={{
-                background:"#FFEAEB",
-                fontSize: "1.5rem",
-              }}
-            >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700">
-                {item.description}
-              </p>
-              <p className="font-normal mt-1 text-gray-800">{item.date}</p>
-            </VerticalTimelineElement>
-          </React.Fragment>
-        ))}
-      </VerticalTimeline>
+                {experiencesData.map((item, index) => (
+                  <React.Fragment key={index}>
+                    <VerticalTimelineElement
+                      visible={true}
+                      contentStyle={{
+                        background: "#ffffff",
+                        boxShadow: "none",
+                        border: "1px solid rgba(0, 0, 0, 0.05)",
+                        textAlign: "left",
+                        padding: "1.3rem 2rem",
+                      }}
+                      contentArrowStyle={{
+                        borderRight: "0.4rem solid #9ca3af",
+                      }}
+                      icon={item.icon}
+                      iconStyle={{
+                        background: "#FFEAEB",
+                        fontSize: "1.5rem",
+                      }}
+                    >
+                      <h3 className="font-semibold capitalize">{item.title}</h3>
+                      <p className="font-normal !mt-0">{item.location}</p>
+                      <p className="!mt-1 !font-normal text-gray-700">
+                        {item.description}
+                      </p>
+                      <p className="font-normal mt-1 text-gray-800">
+                        {item.date}
+                      </p>
+                    </VerticalTimelineElement>
+                  </React.Fragment>
+                ))}
+              </VerticalTimeline>
             </motion.div>
           </div>
         </div>
