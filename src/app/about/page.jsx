@@ -29,6 +29,7 @@ const AboutPage = () => {
     "Typescript",
     "Python",
     "LangChain",
+    "Django",
     "React",
     "C++",
     "HTML 5",
